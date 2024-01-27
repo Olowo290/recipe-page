@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+h1,
+h3 {
+  font-family: 'Young Serif', serif;
+}
+h3 {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.6rem;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  margin-bottom: 1em;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  margin-top: 1em;
+  border-radius: 1em;
+  font-family: 'Outfit', sans-serif;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+h1 {
+  margin-top: 0.8rem;
+  font-weight: 300;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+p,
+li {
+  font-size: 1.4rem;
+  color: hsl(24, 5%, 18%);
+}
+p {
+  margin: 0.7em 0;
+}
+
+li {
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+ol li {
+  margin-bottom: 1rem;
+}
+ol li:first-of-type {
+  margin-top: 0.5rem;
+}
+
+/*second article*/
+.prep {
+  background-color: hsl(30, 54%, 90%);
+  padding: 1.3em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+.prep h3 {
+  margin-bottom: 1em;
+  color: hsl(332, 51%, 32%);
+}
+.prep li {
+  padding-left: 0.5em;
+}
+.prep span {
+  font-weight: bold;
+}
+
+/*Third article*/
+.instruct {
+  border-top: 1px solid hsla(24, 5%, 18%, 0.3);
+  border-bottom: 1px solid hsla(24, 5%, 18%, 0.3);
+  padding: 1.4em;
+  margin: 0 0 2rem 0;
+}
+
+/*Nutrition*/
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+td {
+  padding: 1em;
+  font-size: 1.4rem;
+}
+tr:not(:last-child) td {
+  border-bottom: 1px solid hsla(24, 5%, 18%, 0.3);
+}
+td:not(:first-child) {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+td:not(:last-child) {
+  color: hsl(24, 5%, 18%);
+}
+
+.attribution {
+  margin-top: 1em;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media screen and (width < 400px) {
+  .container {
+    max-width: 350px;
+  }
+}
